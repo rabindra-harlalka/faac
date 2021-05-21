@@ -66,6 +66,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <OutDir>.\bin\$(Configuration)\</OutDir>
     <IntDir>.\intermediate\$(Configuration)\$(ProjectName)\</IntDir>
+    <TargetName>faac</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <OutDir>.\bin\$(Configuration)\</OutDir>
